@@ -33,7 +33,6 @@ func setupRoutes() {
 }
 
 func main() {
-	fmt.Println("Akhil's full stack chat project")
 	setupRoutes()
 	http.ListenAndServe(":9000", nil)
 }
